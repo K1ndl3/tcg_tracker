@@ -8,6 +8,7 @@ This will be an analytics + personal database for Pokemon TCG
 - Collection: Store owned cards
 - Finance tracker: Maintain portfolio of collection's value
     - show real time update of total value based on current market price
+- Budget: user will be able to monthly budget
 
 AI-Analytics
 - suggest user sell owned cards or buy cards whose values might go up
