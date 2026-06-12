@@ -1,0 +1,125 @@
+.browse {
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.browse-header h1 {
+  margin: 0;
+  color: #111827;
+}
+
+.muted {
+  color: #6b7280;
+  margin: 0.25rem 0;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.search-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem;
+  max-width: 460px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.search-bar input:focus {
+  border-color: #2b6cb0;
+  box-shadow: 0 0 0 3px rgba(43, 108, 176, 0.15);
+}
+
+.search-bar button {
+  padding: 0.6rem 1.1rem;
+  background: #2b6cb0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background: #2459a0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.25rem;
+}
+
+.catalog-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.catalog-card img {
+  width: 100%;
+  border-radius: 8px;
+  aspect-ratio: 5 / 7;
+  object-fit: contain;
+  background: #f3f4f6;
+}
+
+.card-noimg {
+  width: 100%;
+  aspect-ratio: 5 / 7;
+  display: grid;
+  place-items: center;
+  background: #f3f4f6;
+  color: #9ca3af;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.catalog-info {
+  flex: 1;
+}
+
+.catalog-name {
+  font-weight: 600;
+  color: #111827;
+  font-size: 0.95rem;
+}
+
+.catalog-set {
+  color: #6b7280;
+  font-size: 0.8rem;
+}
+
+.add-btn {
+  width: 100%;
+  padding: 0.5rem;
+  background: #2b6cb0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-btn:hover:not(:disabled) {
+  background: #2459a0;
+}
+
+.add-btn:disabled {
+  background: #9ca3af;
+  cursor: default;
+}

@@ -1,0 +1,143 @@
+.collection {
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.collection-header h1 {
+  margin: 0;
+  color: #111827;
+}
+
+.muted {
+  color: #6b7280;
+  margin: 0.25rem 0;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.signin-prompt {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 2.5rem;
+  text-align: center;
+  max-width: 420px;
+  margin: 3rem auto;
+}
+
+.signin-prompt h2 {
+  margin: 0 0 0.5rem;
+  color: #111827;
+}
+
+.prompt-btn {
+  margin-top: 1.25rem;
+  padding: 0.6rem 1.5rem;
+  background: #2b6cb0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.prompt-btn:hover {
+  background: #2459a0;
+}
+
+.owned-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.owned-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.owned-card img {
+  width: 100%;
+  border-radius: 8px;
+  aspect-ratio: 5 / 7;
+  object-fit: contain;
+  background: #f3f4f6;
+}
+
+.card-noimg {
+  width: 100%;
+  aspect-ratio: 5 / 7;
+  display: grid;
+  place-items: center;
+  background: #f3f4f6;
+  color: #9ca3af;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.owned-info {
+  flex: 1;
+}
+
+.owned-name {
+  font-weight: 600;
+  color: #111827;
+  font-size: 0.95rem;
+}
+
+.owned-set {
+  color: #6b7280;
+  font-size: 0.8rem;
+}
+
+.qty-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.qty-row button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #374151;
+}
+
+.qty-row button:hover {
+  background: #eef0f3;
+}
+
+.qty {
+  min-width: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.remove-btn {
+  padding: 0.4rem;
+  background: transparent;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background: #fef2f2;
+}
